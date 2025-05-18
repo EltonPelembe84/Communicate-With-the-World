@@ -1,0 +1,201 @@
+/* Estilo Global */
+body{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2d3e50;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: #070707;
+    margin-bottom: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: linear-gradient(135deg, #4CAF50, #80a0db);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #2e7d32;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  iframe {
+    border: none;
+    margin: 30px 0;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  
+  /* Seções */
+  section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Páginas */
+  section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para páginas de níveis (iniciante, intermediário, avançado) */
+  header h1 {
+    font-size: 2.2em;
+  }
+  
+  header p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+  }
+  
+  iframe {
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 50px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    iframe {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      font-size: 1em;
+      padding: 12px 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.8em;
+    }
+  
+    section h2 {
+      font-size: 1.8em;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 1em;
+      padding: 12px;
+    }
+  }
+
+  /* Footer */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  footer .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  footer .contact-info p {
+    font-weight: 600;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin: 8px 0;
+  }
+  
+  footer a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p:last-child {
+    font-size: 0.8em;
+    color: #bbb;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    footer {
+      padding: 20px;
+    }
+    
+    footer p {
+      font-size: 0.9em;
+    }
+    
+    footer .contact-info p {
+      font-size: 1.1em;
+    }
+  }
